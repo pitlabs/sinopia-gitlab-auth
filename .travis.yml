@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+    - "6"
+
+#deploy:
+#    provider: npm
+#    email:
+#        secure:
+#    api_key:
+#        secure:
+#    on:
+#        branch: release/*

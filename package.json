@@ -1,0 +1,32 @@
+{
+  "name": "sinopia-gitlab-auth",
+  "version": "0.0.1",
+  "description": "sinopia authentication plugin using gitlab api",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pitlabs/sinopia-gitlab-auth.git"
+  },
+  "keywords": [
+    "sinopia",
+    "auth",
+    "plugin",
+    "gitlab"
+  ],
+  "author": "mpolitze",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/pitlabs/sinopia-gitlab-auth/issues"
+  },
+  "homepage": "https://github.com/pitlabs/sinopia-gitlab-auth#readme",
+  "dependencies": {
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "express": "^4.15.2",
+    "mocha": "^3.2.0"
+  }
+}
